@@ -1,0 +1,71 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	font-family: 'Fira Code', monospace;
+
+	/* palette: https://www.schemecolor.com/retro-vintage.php */
+	background-color: #FCFBF6;
+}
+
+/* -------------- */
+/*   CONTAINERS   */
+/* -------------- */
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+/* -------------- */
+/*  PROFILE PAGE  */
+/* -------------- */
+.profile-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	width: 100%;
+}
+.profile-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #678A95;
+	margin: 10px;
+	/* border: 1px solid red; */
+}
+.profile-header {
+	gap: 20px;
+}
+.profile-header img {
+	max-width: 200px;
+	border-radius: 50%;
+}
+.profile-header p {
+	color: #0F3551;
+	font-weight: bold;
+	font-size: 2rem;
+	padding: 0;
+	margin: 0;
+}
+.profile-description {
+	max-width: 600px;
+	text-align: center;
+}
+.profile-social {
+	display: flex;
+	flex-direction: row;
+}
+.profile-social-item {
+	margin: 0 10px;
+	padding: 0;
+	font-size: 1.5rem;
+	/* color: #0F3551; */
+	color: #1D536C;
+}
+.profile-contact {
+	font-size: .75rem;
+	font-style: italic;
+}
