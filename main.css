@@ -40,8 +40,9 @@ html, body {
 	gap: 20px;
 }
 .profile-header img {
-	max-width: 200px;
-	border-radius: 50%;
+	width: 200px;
+	clip-path: circle();
+	overflow: hidden;
 }
 .profile-header p {
 	color: #0F3551;
