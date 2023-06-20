@@ -42,7 +42,6 @@ html, body {
 .profile-header img {
 	width: 200px;
 	clip-path: circle();
-	overflow: hidden;
 }
 .profile-header p {
 	color: #0F3551;
